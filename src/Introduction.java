@@ -46,4 +46,22 @@ public class Introduction {
         System.out.println("Int: "+x);
     }
 
+    /**
+     * Print formatted output
+     * 1st column is left justified with upto 15 spaces
+     * 2nd column is exactly 3 digits with leading zero
+     *
+     */
+    public static void formatoutput(){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("================================");
+        for(int i=0;i<3;i++)
+        {
+            String s1=sc.next();
+            int x=sc.nextInt();
+            System.out.printf("%-15s%03d%n",s1,x);
+        }
+        System.out.println("================================");
+    }
+
 }

@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * @author neha
  * Class to hold methods for introduction to java lessons

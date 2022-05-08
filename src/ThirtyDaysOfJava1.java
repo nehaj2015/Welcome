@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * @author neha
  */
-public class ThirtyDaysOfJava {
+public class ThirtyDaysOfJava1 {
 
     /**
      * Day 0: Hello World
